@@ -1,10 +1,16 @@
 import { useLayoutEffect, useRef, useCallback } from 'react';
+import PropTypes from 'prop-types';
 import Lenis from 'lenis';
 import './css/ScrollStack.css';
 
 export const ScrollStackItem = ({ children, itemClassName = '' }) => (
   <div className={`scroll-stack-card ${itemClassName}`.trim()}>{children}</div>
 );
+
+ScrollStackItem.propTypes = {
+  children: PropTypes.node,
+  itemClassName: PropTypes.string
+};
 
 const ScrollStack = ({
   children,
@@ -309,6 +315,22 @@ const ScrollStack = ({
       </div>
     </div>
   );
+};
+
+ScrollStack.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
+  itemDistance: PropTypes.number,
+  itemScale: PropTypes.number,
+  itemStackDistance: PropTypes.number,
+  stackPosition: PropTypes.string,
+  scaleEndPosition: PropTypes.string,
+  baseScale: PropTypes.number,
+  scaleDuration: PropTypes.number,
+  rotationAmount: PropTypes.number,
+  blurAmount: PropTypes.number,
+  useWindowScroll: PropTypes.bool,
+  onStackComplete: PropTypes.func
 };
 
 export default ScrollStack;
