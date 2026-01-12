@@ -1,5 +1,5 @@
 import { Code, User } from "lucide-react";
-// import { Briefcase } from "lucide-react";
+import { Briefcase } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -74,10 +74,10 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="gradient-border p-6 card-hover">
+            <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-blue-400/10">
-                  <Briefcase className="h-7 w-7 text-primary" />
+                  <Briefcase className="h-7 w-7 text-blue-400" />
                 </div>
 
                 <div className="text-left">
@@ -88,7 +88,7 @@ export const AboutSection = () => {
                   </p>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

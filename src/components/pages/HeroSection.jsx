@@ -1,11 +1,11 @@
 import { FlipWords } from "../ui/FlipWords";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import ProfileCard from "../ui/ProfileCard";
 import avtarUrl from '../../assets/img/main_image.png';
 import codeIcon from '../../assets/img/code.png';
 
 export const HeroSection = () => {
-  const words = ["Computer Engineer", "UI/UX Designer", "Photo Editor", "Gamer", "Learning MERN STACK"];
+  const words = ["a Computer Engineer", "a UI/UX Designer", " a Photo Editor", "a Gamer", "learning the MERN stack"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -44,7 +44,7 @@ export const HeroSection = () => {
 
           <div className="text-1xl md:text-3xl font-bold tracking-tight justify-items-center mt-5">
             <span className="animate-fade-in-delay-2 flex">
-              I&apos;m a
+              I&apos;m
               <span className="text-blue-400 animate-fade-in-delay-3 transition delay-150 ease-in-out hover:text-indigo-500">
                 <motion.span
                   variants={variants}

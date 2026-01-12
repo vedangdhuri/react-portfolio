@@ -32,13 +32,13 @@
 
 @font-face {
   font-family: Bastliga;
-  src: url('../../assets/font/BastligaOne.ttf');
+  src: url('../../../assets/font/BastligaOne.ttf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: Poppins;
-  src: url('../../assets/font/Poppins-Bold.ttf');
+  src: url('../../../assets/font/Poppins-Bold.ttf');
   font-weight: 700;
 }
 
