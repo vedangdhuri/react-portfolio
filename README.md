@@ -1,4 +1,4 @@
-<h1 align="center">PORTFOLIO</h1>
+<h1 align="center">REACT PORTFOLIO</h1>
 <h3 align="center">Transforming Visions Into Stunning Digital Realities</h3>
 <div align=center>
     <img src="https://img.shields.io/github/last-commit/vedangdhuri/vedangdhuri.github.io?style=flat&logo=git&logoColor=white&color=0080ff" alt=""/>
